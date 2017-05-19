@@ -1,0 +1,14 @@
+body {
+  background-image: url("../images/star-wars-background.jpeg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+
+/*** Images ***/
+.img-thumbnail {
+  border: 5px solid green;
+  height: 100px;
+  width: 100px;
+}
