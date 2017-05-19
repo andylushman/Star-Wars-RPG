@@ -1,2 +1,2 @@
-# week-4-game
-Game for week 4 at University of Denver
+# Star Wars RPG Game!
+A simple single-player Star Wars RPG game, where users can choose their character and battle all enemies. 
