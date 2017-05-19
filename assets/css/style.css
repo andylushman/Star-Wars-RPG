@@ -16,7 +16,7 @@ body {
 
 /*** Images- Enemies ***/
 
-.enemies {
+.enemy {
   background-color: red;
   border: 2px solid red;
   height: 100px;

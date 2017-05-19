@@ -1,6 +1,6 @@
 //GLOBAL VARIABLES
 //===========================================
-let characters = {
+var characters = {
   "luke": {
     "healthPoints": 120,
     "attackPower": 8,
@@ -28,11 +28,21 @@ let characters = {
 //Debugging
 console.log(characters);
 
+var currSelectedCharacter;
+var currDefender;
+var enemies = [];
+
 
 //FUNCTIONS
 //===========================================
+function startGame (){
+
+}
 
 
+function restart() {
+  
+}
 
 
 //MAIN PROCESS
