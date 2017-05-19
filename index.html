@@ -3,16 +3,13 @@
   <head>
     <meta charset="utf-8">
     <title>Star Wars RPG Game</title>
+  <!-- Reset Stylesheet -->
+  <link rel="stylesheet" href="./assets/css/reset.css">
+
   <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-  <!-- jQuery Core 3.2.1 -->
-  <script
-  src="https://code.jquery.com/jquery-3.2.1.min.js"
-  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-  crossorigin="anonymous"></script>
-
-  <!-- Main CSS -->
+  <!-- My CSS -->
   <link rel="stylesheet" href="./assets/css/style.css">
   </head>
   <body>
@@ -25,8 +22,8 @@
           </div>
         </div><!-- /Row -->
 
-        <!-- Images -->
-        <div class="row">
+        <!-- Characters-section -->
+        <div class="row characters-section">
           <!-- Luke -->
           <div class="col-xs-5 col-md-2">
             <div id="luke">
@@ -60,13 +57,6 @@
           </div>
         </div><!-- /Row -->
 
-        <!-- Enemies Avaiable to Attach -->
-        <div class="row">
-          <div class="col-xs-8">
-            <h3 class="text-center">Enemies Avaiable to Attach</h3>
-          </div>
-        </div><!-- /Row -->
-
         <!-- Fight Section -->
         <div class="row">
           <div class="col-xs-8">
@@ -79,10 +69,22 @@
         <div class="row">
           <div class="col-xs-8">
             <h3 class="text-center">Defender</h3>
+            <div id="defender-div"></div>
+          </div>
+        </div><!-- /Row -->
+
+        <!-- Enemies Avaiable to Attach -->
+        <div class="row">
+          <div class="col-xs-8">
+            <h3 class="text-center">Enemies Avaiable to Attach</h3>
+            <div id="enemies-div"></div>
           </div>
         </div><!-- /Row -->
 
       </div><!-- /Container -->
+
+  <!-- jQuery Core 3.2.1 -->
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 
   <!-- Main JavaScript -->
   <script type="text/javascript" src="./assets/javascript/game.js"></script>

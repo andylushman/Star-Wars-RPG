@@ -25,6 +25,7 @@ let characters = {
     "counterAttackPower": 15,
   },
 };
+//Debugging
 console.log(characters);
 
 
