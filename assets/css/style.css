@@ -6,9 +6,19 @@ body {
 }
 
 
-/*** Images ***/
+/*** Images Clicked ***/
 .img-thumbnail {
-  border: 5px solid green;
+  background-color: green;
+  border: 2px solid green;
+  height: 100px;
+  width: 100px;
+}
+
+/*** Images- Enemies ***/
+
+.enemies {
+  background-color: red;
+  border: 2px solid red;
   height: 100px;
   width: 100px;
 }
