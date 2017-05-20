@@ -12,6 +12,7 @@
   <!-- My CSS -->
   <link rel="stylesheet" href="./assets/css/style.css">
   </head>
+
   <body>
       <div class="container">
 
@@ -22,33 +23,41 @@
           </div>
         </div><!-- /Row -->
 
-        <!-- Characters-section -->
-        <div class="row characters-section">
+        <!-- Avaiable Characters -->
+        <div class="row" id="characters-available">
           <!-- Luke -->
           <div class="col-xs-5 col-md-2">
-            <div id="luke">
+            <div id="luke" class="character-image available-character">
+              <p>Luke Skywalker</p>
               <img class= "img-thumbnail" src="./assets/images/luke-skywalker.png" alt="Luke Skywalker">
+              <p class="health">120</p>
             </div>
           </div>
           <!-- Yoda -->
           <div class="col-xs-5 col-md-2">
-            <div id="yoda">
+            <div id="yoda" class="character-image available-character">
+              <p>Luke Skywalker</p>
               <img class="img-thumbnail" src="./assets/images/yoda.png" alt="Yoda">
+              <p class="health">120</p>
             </div>
           </div>
           <!-- Darth Vader -->
           <div class="col-xs-5 col-md-2">
-            <div id="darth-vader">
+            <div id="darth-vader" class="character-image available-character">
+              <p>Luke Skywalker</p>
               <img class="img-thumbnail" src="./assets/images/darth-vader.jpg" alt="Darth Vader">
+              <p class="health">120</p>
             </div>
           </div>
           <!-- Darth Sidious -->
           <div class="col-xs-5 col-md-2">
-            <div id="darth-sidious">
+            <div id="darth-sidious" class="character-image available-character">
+              <p>Luke Skywalker</p>
               <img class="img-thumbnail" src="./assets/images/darth-sidious.jpg" alt="Darth Sidious">
+              <p class="health">120</p>
             </div>
           </div>
-        </div><!-- /Row -->
+        </div><!-- /Avaiable Characters -->
 
         <!-- Choose Your Character -->
         <div class="row">
@@ -61,7 +70,7 @@
         <div class="row">
           <div class="col-xs-8">
             <h3 class="text-center">Fight Section</h3>
-            <button class="center-block" type="button" name="attack-button">Attack</button>
+            <button id="attack-btn" class="center-block" type="button" name="attack-button">Attack</button>
             <h5 id="game-message" class="text-center">#game-message</h5>
           </div>
         </div><!-- /Row -->
