@@ -132,7 +132,7 @@ $(document).ready(function() {
 
         // Add the character to the defender section
         $("#luke").removeClass("enemy-character").addClass("defender-character");
-        $("#defender-section").append(this);
+        $("#defender-div").append(this);
       }
     }
   });
@@ -165,7 +165,7 @@ $(document).ready(function() {
 
         // Add the character to the defender section
         $("#yoda").removeClass("enemy-character").addClass("defender-character");
-        $("#defender-section").append(this);
+        $("#defender-div").append(this);
       }
     }
   });
@@ -198,7 +198,7 @@ $(document).ready(function() {
 
         // Add the character to the defender section
         $("#darth-vader").removeClass("enemy-character").addClass("defender-character");
-        $("#defender-section").append(this);
+        $("#defender-div").append(this);
       }
     }
   });
@@ -231,7 +231,7 @@ $(document).ready(function() {
 
         // Add the character to the defender section
         $("#darth-sidious").removeClass("enemy-character").addClass("defender-character");
-        $("#defender-section").append(this);
+        $("#defender-div").append(this);
       }
     }
   });
@@ -250,7 +250,7 @@ $(document).ready(function() {
       $("#game-message").html("<p>You attacked " + defender.name + " for " + character.attack + " damage.<p>");
 
       // User's attack power increases
-      character.attack = character.attack + character.baseAttack;
+      character.attack = character.attack + character.Attack;
 
       // If defender is still alive, they counter attack the user
       if (defender.health > 0) {
