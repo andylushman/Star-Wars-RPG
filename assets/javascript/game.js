@@ -4,29 +4,29 @@ var characters = {
   luke: {
     name: "Luke",
     health: 120,
-    attackPower: 8,
-    counterAttackPower: 20,
+    attackPower: 2,
+    counterAttackPower: 15,
   },
 
   yoda: {
     name: "Yoda",
     health: 100,
-    attackPower: 12,
-    counterAttackPower: 25,
+    attackPower: 4,
+    counterAttackPower: 5,
   },
 
   darthVader: {
     name: "Darth Vader",
-    health: 180,
-    attackPower: 4,
-    counterAttackPower: 10,
+    health: 150,
+    attackPower: 1,
+    counterAttackPower: 20,
   },
 
   darthSidious: {
     name: "Darth Sidious",
-    health: 150,
-    attackPower: 7,
-    counterAttackPower: 15,
+    health: 180,
+    attackPower: 1,
+    counterAttackPower: 25,
   },
 };
 //Debugging
