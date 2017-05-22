@@ -23,48 +23,29 @@ body {
   width: 100px;
 }
 
-#chosen-character h2 {
-	font-size: 2em;
-    color: #485bf0;
+.chosen-character .img-thumbnail {
+  height: 150px;
+  width: 150px;
 }
 
-.chosen-character {
-	border-color: #dd48f0;
-	background-color: #5bf048;
-}
-
-#enemies-available h2 {
-	font-size: 2em;
-    color: #8948f0;
+.defender-character .img-thumbnail {
+  height: 150px;
+  width: 150px;
 }
 
 .enemy-character {
-	border-color: #48f0dd;
-	background-color: #f0485b;
-	margin: 0px 2px 0px 2px;
+  display: inline-block;
+  margin: auto;
 }
 
-#fight-section h2 {
-	font-size: 2em;
-    color: #f0485b;
+#enemies-div {
+
 }
 
-#defender-section {
-	height: 210px;
-}
 
-#defender-section h2 {
-	font-size: 2em;
-    color: #f0485b;
-}
-
-.defender-character {
-	border-color: #485bf0;
-	background-color: #f0dd48;
-}
 
 #game-message {
 	font-size: 1.5em;
 	font-weight: bold;
-    color: 	#f0dd48;
+    color: 	black;
 }
