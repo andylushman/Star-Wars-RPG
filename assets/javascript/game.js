@@ -2,24 +2,28 @@
 //===========================================
 var characters = {
   luke: {
+    name: "luke",
     health: 120,
     attackPower: 8,
     counterAttackPower: 20,
   },
 
   yoda: {
+    name: "yoda",
     health: 100,
     attackPower: 12,
     counterAttackPower: 25,
   },
 
   darthVader: {
+    name: "darthVader",
     health: 180,
     attackPower: 4,
     counterAttackPower: 10,
   },
 
   darthSidious: {
+    name: "darthSidious",
     health: 150,
     attackPower: 7,
     counterAttackPower: 15,
@@ -61,8 +65,8 @@ function initializeCharacter(chosenCharacter) {
 function initializeDefender(chosenDefender) {
   defender.name = chosenDefender.name;
   defender.health = chosenDefender.health;
-  defender.baseAttack = chosenDefender.baseAttack;
-  defender.attack = chosenDefender.attack;
+  defender.counterAttackPower = chosenDefender.counterAttackPower;
+  defender.attackPower = chosenDefender.attackPower;
 }
 
 // This function will move the remaining characters to the enemies section
@@ -245,12 +249,12 @@ $(document).ready(function() {
     // User is ready to attack the defender
     if (characterSelected && defenderSelected && !gameOver) {
       // User attacks the defender and decreases the defender's health points
-      defender.health = defender.health - character.attackPoints;
+      defender.health = defender.health - character.attackPower;
       $(".defender-character").children(".health").html(defender.health);
-      $("#game-message").html("<p>You attacked " + defender.name + " for " + character.attackPoints + " damage.<p>");
+      $("#game-message").html("<p>You attacked " + defender.name + " for " + character.attackPower + " damage.<p>");
 
       // User's attack power increases
-      character.attackPoints = character.attackPoints + character.attackPoints;
+      character.attackPower = character.attackPower + character.attackPower;
 
       // If defender is still alive, they counter attack the user
       if (defender.health > 0) {

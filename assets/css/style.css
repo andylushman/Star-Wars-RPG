@@ -23,10 +23,6 @@ body {
   width: 100px;
 }
 
-#chosen-character {
-	height: 190px;
-}
-
 #chosen-character h2 {
 	font-size: 2em;
     color: #485bf0;
