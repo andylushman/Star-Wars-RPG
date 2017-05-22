@@ -1,28 +1,28 @@
 //GLOBAL VARIABLES
 //===========================================
 var characters = {
-  "luke": {
-    "health": 120,
-    "attackPower": 8,
-    "counterAttackPower": 20,
+  luke: {
+    health: 120,
+    attackPower: 8,
+    counterAttackPower: 20,
   },
 
-  "yoda": {
-    "health": 100,
-    "attackPower": 12,
-    "counterAttackPower": 25,
+  yoda: {
+    health: 100,
+    attackPower: 12,
+    counterAttackPower: 25,
   },
 
-  "darthVader": {
-    "health": 180,
-    "attackPower": 4,
-    "counterAttackPower": 10,
+  darthVader: {
+    health: 180,
+    attackPower: 4,
+    counterAttackPower: 10,
   },
 
-  "darthSidious": {
-    "health": 150,
-    "attackPower": 7,
-    "counterAttackPower": 15,
+  darthSidious: {
+    health: 150,
+    attackPower: 7,
+    counterAttackPower: 15,
   },
 };
 //Debugging
