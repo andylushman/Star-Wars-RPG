@@ -245,6 +245,7 @@ $(document).ready(function() {
     }
   });
 
+  //Attack button is clicked
   $("#attack-btn").on("click", function() {
     console.log("Attack selected");
 
