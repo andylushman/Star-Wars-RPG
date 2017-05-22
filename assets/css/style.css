@@ -35,7 +35,10 @@ body {
 
 .enemy-character {
   display: inline-block;
-  margin: auto;
+  /*background-color: red;
+  border: 2px solid red;
+  height: 100px;
+  width: 100px;*/
 }
 
 #enemies-div {

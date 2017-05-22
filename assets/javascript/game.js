@@ -2,28 +2,28 @@
 //===========================================
 var characters = {
   luke: {
-    name: "luke",
+    name: "Luke",
     health: 120,
     attackPower: 8,
     counterAttackPower: 20,
   },
 
   yoda: {
-    name: "yoda",
+    name: "Yoda",
     health: 100,
     attackPower: 12,
     counterAttackPower: 25,
   },
 
   darthVader: {
-    name: "darthVader",
+    name: "Darth Vader",
     health: 180,
     attackPower: 4,
     counterAttackPower: 10,
   },
 
   darthSidious: {
-    name: "darthSidious",
+    name: "Darth Sidious",
     health: 150,
     attackPower: 7,
     counterAttackPower: 15,
@@ -104,8 +104,9 @@ function resetGame() {
 // Run Javascript when the HTML has finished loading
 $(document).ready(function() {
 
-  // Hide the "Restart" button on document load
+  // Hide the "Restart" and "game-message" button on document load
   $("#restart").hide();
+  $("#game-message").empty();
 
   // Determine which character the user has clicked
   $("#luke").on("click", function () {
