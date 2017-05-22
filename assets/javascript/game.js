@@ -1,30 +1,29 @@
 //GLOBAL VARIABLES
 //===========================================
-var characters = {
-  luke: {
+var luke = {
     health: 120,
     attackPower: 8,
     counterAttackPower: 20,
-  },
+  };
 
-  yoda: {
+var yoda = {
     health: 100,
     attackPower: 12,
     counterAttackPower: 25,
-  },
+  };
 
-  darthVader: {
+var darthVader = {
     health: 180,
     attackPower: 4,
     counterAttackPower: 10,
-  },
+  };
 
-  darthSidious: {
+var darthSidious = {
     health: 150,
     attackPower: 7,
     counterAttackPower: 15,
-  },
-};
+  };
+
 //Debugging
 console.log(characters);
 
