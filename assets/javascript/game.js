@@ -243,9 +243,6 @@ $(document).ready(function() {
   $("#attack-btn").on("click", function() {
     console.log("Attack selected");
 
-    console.log("character = " + JSON.stringify(character));
-    console.log("defender = " + JSON.stringify(defender));
-
     // User is ready to attack the defender
     if (characterSelected && defenderSelected && !gameOver) {
       // User attacks the defender and decreases the defender's health points
@@ -266,7 +263,7 @@ $(document).ready(function() {
           $("#game-message").append("<p>" + defender.name + " attacked you back for " + defender.counterAttackPower + " damage.</p>");
         } else {
           gameOver = true;
-          $("#game-message").html("<p>You were defeated... womp womp...</p><p>Play again?</p>");
+          $("#game-message").html("<p>You were defeated...</p><p>Play again?</p>");
           $("#restart").show();
         }
       } else {
@@ -289,8 +286,6 @@ $(document).ready(function() {
       $("#game-message").html("<p>You must choose an enemy to fight.</p>");
     }
 
-    console.log("character = " + JSON.stringify(character));
-    console.log("defender = " + JSON.stringify(defender));
   });
 
   $("#restart").on("click", function() {
