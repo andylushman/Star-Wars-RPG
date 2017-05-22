@@ -61,7 +61,7 @@ function initializeCharacter(chosenCharacter) {
   character.attackPower = chosenCharacter.attackPower;
 }
 
-// This function will initialize the enemy's value from the global object variables defined above
+// This function will initialize the defender's value from the global object variables defined above
 function initializeDefender(chosenDefender) {
   defender.name = chosenDefender.name;
   defender.health = chosenDefender.health;
@@ -126,6 +126,7 @@ $(document).ready(function() {
 
       // Move the remaining characters to the enemies section
       moveToEnemies();
+
     } else if ((characterSelected === true) && (defenderSelected === false)) {
       // User is choosing the defender
       if($("#luke").hasClass("enemy-character")) {
@@ -159,6 +160,7 @@ $(document).ready(function() {
 
       // Move the remaining characters to the enemies section
       moveToEnemies();
+
     } else if ((characterSelected === true) && (defenderSelected === false)) {
       // User is choosing the defender
       if($("#yoda").hasClass("enemy-character")) {
@@ -192,6 +194,7 @@ $(document).ready(function() {
 
       // Move the remaining characters to the enemies section
       moveToEnemies();
+
     } else if ((characterSelected === true) && (defenderSelected === false)) {
       // User is choosing the defender
       if($("#darth-vader").hasClass("enemy-character")) {
@@ -225,6 +228,7 @@ $(document).ready(function() {
 
       // Move the remaining characters to the enemies section
       moveToEnemies();
+      
     } else if ((characterSelected === true) && (defenderSelected == false)) {
       // User is choosing the defender
       if($("#darth-sidious").hasClass("enemy-character")) {
