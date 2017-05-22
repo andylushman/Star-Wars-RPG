@@ -104,7 +104,7 @@ function resetGame() {
 // Run Javascript when the HTML has finished loading
 $(document).ready(function() {
 
-  // Hide the "Restart" and "game-message" button on document load
+  // Hide the "Restart" button and "#game-message" on document load
   $("#restart").hide();
   $("#game-message").empty();
 
@@ -228,7 +228,7 @@ $(document).ready(function() {
 
       // Move the remaining characters to the enemies section
       moveToEnemies();
-      
+
     } else if ((characterSelected === true) && (defenderSelected == false)) {
       // User is choosing the defender
       if($("#darth-sidious").hasClass("enemy-character")) {
