@@ -31,14 +31,18 @@ body {
 .defender-character .img-thumbnail {
   height: 150px;
   width: 150px;
+  background-color: red;
+  border: 2px solid red;
 }
 
 .enemy-character {
   display: inline-block;
-  /*background-color: red;
+  margin-right: 1em;
+}
+
+.enemy-character .img-thumbnail {
+  background-color: red;
   border: 2px solid red;
-  height: 100px;
-  width: 100px;*/
 }
 
 #enemies-div {
