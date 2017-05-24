@@ -134,7 +134,7 @@ $(document).ready(function() {
 
         // Set the user's enemy
         initializeDefender(characters.luke);
-        defenderSelected === true;
+        defenderSelected = true;
 
         // Add the character to the defender section
         $("#luke").removeClass("enemy-character").addClass("defender-character");
