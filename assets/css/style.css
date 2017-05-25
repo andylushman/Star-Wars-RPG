@@ -28,6 +28,7 @@ body {
   width: 150px;
 }
 
+
 .defender-character .img-thumbnail {
   height: 150px;
   width: 150px;
@@ -47,6 +48,10 @@ body {
 
 #luke, #yoda, #darth-vader, #darth-sidious {
   display: inline-block;
+  text-align: center;
+}
+
+#characters-available {
   text-align: center;
 }
 
