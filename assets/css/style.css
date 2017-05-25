@@ -49,6 +49,7 @@ body {
 #luke, #yoda, #darth-vader, #darth-sidious {
   display: inline-block;
   text-align: center;
+  margin-right: 1em;
 }
 
 #characters-available {
