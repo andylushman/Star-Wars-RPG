@@ -45,6 +45,18 @@ body {
   border: 2px solid red;
 }
 
+#luke, #yoda, #darth-vader, #darth-sidious {
+  display: inline-block;
+  text-align: center;
+}
+
+#chosen-character {
+  text-align: center;
+}
+
+#defender-div {
+  text-align: center;
+}
 
 #game-message {
 	font-size: 1.5em;
